@@ -61,20 +61,20 @@ Free tier handles 50 submissions/month — plenty for a service business.
 
 
 ==========================================
-CONNECTING YOUR REAL DOMAIN (e.g., dynfx.com)
+CONNECTING YOUR REAL DOMAIN (e.g., dynfx.co)
 ==========================================
 
 If you have a domain at GoDaddy:
 
 OPTION A — Easiest (recommended unless you use GoDaddy email):
-  1. In Netlify → Domain management → Add a domain → enter dynfx.com
+  1. In Netlify → Domain management → Add a domain → enter dynfx.co
   2. Netlify gives you nameservers (look like dns1.p01.nsone.net etc.)
   3. In GoDaddy → My Products → DNS → Change Nameservers
   4. Choose "Enter my own nameservers" and paste in Netlify's
   5. Save. Done. Wait 1-24 hours.
 
 OPTION B — If you use GoDaddy email and need to keep it:
-  1. In Netlify → Domain management → Add a domain → enter dynfx.com
+  1. In Netlify → Domain management → Add a domain → enter dynfx.co
   2. Netlify shows DNS records (an A record + CNAME)
   3. In GoDaddy → DNS, add:
      - Type: A,     Name: @,    Value: 75.2.60.5
